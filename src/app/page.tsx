@@ -1,7 +1,8 @@
-'use client'
-
 import ConverterCard from './components/converterCard'
-export default function Home() {
+import CurrencyService from './services/currencyService'
+
+export default async function Home() {
+  await CurrencyService.getAllCurrencyRates('BRL')
   const countryToConvert = [
     {
       name: 'Brazil',

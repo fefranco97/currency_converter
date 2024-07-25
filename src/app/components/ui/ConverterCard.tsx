@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from 'react'
 import CurrencyInput, { CurrencyInputOnChangeValues } from 'react-currency-input-field'
 

@@ -7,7 +7,7 @@ interface Country {
 }
 
 const countryService = {
-  baseUrl: process.env.COUNTRY_API_BASE_URL,
+  baseUrl: 'https://restcountries.com/v3.1/',
 
   cachedCountries: new Map(),
 
